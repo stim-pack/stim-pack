@@ -1,0 +1,17 @@
+{
+	"name": "stim-pack",
+	"version": "1.0.0",
+	"description": "highly stimulating",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --display-modules",
+		"scrape": "scrape-it"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"crawler": "^1.1.2",
+		"file-system": "^2.2.2",
+		"scrape-it": "^5.0.2"
+	}
+}

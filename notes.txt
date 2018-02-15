@@ -1,0 +1,106 @@
+
+// data-id is parameter
+// offset in increments of 5
+
+http://stimuleringsfonds.nl/inc/lightbox.php?path=%2Fnl%2Ftoekenningen%2F
+	&special=toekenningen
+	&offset=0
+	&hasfilter=true
+	&action=loadmore
+	&regeling=1
+	&jaartal=2017
+	&subdiscipline=42
+	&lmtype=filter
+	&type=filter
+
+http://stimuleringsfonds.nl/inc/lightbox.php?path=%2Fnl%2Ftoekenningen%2F
+	&special=toekenningen
+	&offset=0
+	&hasfilter=true
+	&action=loadmore // <---- default
+
+	&regeling=9 // these parameters are always dutch
+	&projectvorm=6
+	&jaartal=2016
+	&lmtype=filter
+	&type=filter
+
+// this first part is language sensitive
+http://stimuleringsfonds.nl/inc/lightbox.php?path=%2Fen%2Fgrants_issued%2F
+http://stimuleringsfonds.nl/inc/lightbox.php?path=%2Fnl%2Ftoekenningen%2F
+	&special=toekenningen
+	&offset=5
+	&hasfilter=true
+	&action=loadmore
+	&regeling=9
+	&lmtype=filter
+
+http://content.stimuleringsfonds.nl/files/pro/i_3814/007representatieveafbeelding_th.jpg
+http://content.stimuleringsfonds.nl/files/pro/i_3814/007representatieveafbeelding.jpg
+	remove '_th' suffix for full resolution
+
+http://stimuleringsfonds.nl/inc/lightbox.php?path=%2Fen%2Fgrants_issued%2F&special=toekenningen&offset=0&hasfilter=true&action=loadmore&lmtype=filter&type=filter
+
+
+
+desired columns
+1	index
+2	title DONE
+3	organisation DONE
+4	sum-eur DONE
+5	year DONE
+		1 		data-id=2010 	2010
+		2 		data-id=2011 	2011
+		3 		data-id=2012 	2012
+		4 		data-id=2013 	2013
+		5 		data-id=2014 	2014
+		6 		data-id=2015 	2015
+		7 		data-id=2016 	2016
+		8 		data-id=2017 	2017
+		9 		data-id=2018 	2018
+6	grant types				DONE
+		1 		data-id=1 	grant programme for architecture
+		2 		data-id=2 	grant programme for activities programmes
+		3 		data-id=3 	grant programme for multi-year programmes
+		4 		data-id=4 	grant programme for design
+		5 		data-id=5 	grant programme for talent development
+		6 		data-id=7 	game fund
+		7 		data-id=8 	tax video clip fund
+		8 		data-id=9 	grant programme for digital culture
+		9 		data-id=10 	belvedere
+		10 	data-id=11 	grant programme urban design
+		11 	data-id=12 	grant programme for internationalization
+		12 	data-id=14 	non-fiction transmedia programme
+		13 	data-id=15 	grant programme for festivals
+		14 	data-id=16 	voucher procedure for presentations abroad
+7	project types DONE
+		1 		data-id=n 	research
+		2 		data-id=n 	event
+		3 		data-id=n 	exhibition
+		4 		data-id=n 	publication
+		5 		data-id=n 	av production
+		6 		data-id=n 	website / application
+		7 		data-id=n 	product development
+		8 		data-id=n 	talent development
+		9 		data-id=n 	programme
+		10 	data-id=n 	game
+		11 	data-id=n 	activity programme
+		12 	data-id=n 	open call
+		13 	data-id=n 	start-up grant
+		14 	data-id=n 	festival
+		15 	data-id=n 	presentation
+		16 	data-id=n 	contest
+		17 	data-id=n 	documentary
+		18 	data-id=n 	voucher
+8	img-src DONE
+	thumbnail-src DONE
+9	description DONE
+10	url-exit DONE
+11	url-permalink DONE
+
+
+
+
+
+http://stimuleringsfonds.nl/inc/lightbox.php?path=%2Fen%2Fgrants_issued%2F&special=toekenningen&offset=0&hasfilter=true&action=loadmore&lmtype=filter&type=filter
+http://stimuleringsfonds.nl/inc/lightbox.php?path=%2Fnl%2Ftoekenningen%2F&special=toekenningen&offset=0&hasfilter=true&action=loadmore&amount=10&lmtype=filter&type=filter

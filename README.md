@@ -1,4 +1,4 @@
-# stim-pack
+# stim-pack 🏭
 
 Most recent scrape can be found in 📁**dist**
 

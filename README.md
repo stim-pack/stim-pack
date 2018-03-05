@@ -4,7 +4,7 @@ Most recent scrape can be found in 📁**dist**
 
 ## Running stim-pack
 ```sh
-node run src/scrape-it.1.1.0.js
+node run scrape-it.1.2.0.js
 ```
 
 ## Required modules
